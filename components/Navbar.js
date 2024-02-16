@@ -72,6 +72,61 @@ class Navbar extends HTMLElement {
         </a>
       </li>
     </ul>
+
+    <div class="hum-menu-btn">
+      <input
+        type="checkbox"
+        role="button"
+        aria-label="Display the menu"
+        class="menu"
+      />
+
+      <div class="menu-container">
+        <ul class="main-navs">
+          <li class="active-link">
+            <a href="#">
+              <img src="./assets/icons/cart.svg" alt="auctions" />
+              <span>Auctions</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/icons/contests.svg" alt="contests" />
+              <span>Contests</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/icons/project.svg" alt="project" />
+              <span>Project</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/icons/portfolios.svg" alt="portfolios" />
+              <span>Portfolios</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/icons/frelancers.svg" alt="frelancers" />
+              <span>Freelancers</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/icons/forum.svg" alt="forum" />
+              <span>Forum</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </nav>
 

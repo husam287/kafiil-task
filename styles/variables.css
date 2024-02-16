@@ -1,10 +1,12 @@
 :root {
   --primary: #1dbf73;
-  --primary100: #E9F9F1;
+  --primary100: #e9f9f1;
   --light: #ffffff;
   --grey500: #696f79;
   --grey400: #8692a6;
   --grey300: #c3c5c8;
-  --grey50: #F6F6F6;
+  --grey50: #f6f6f6;
   --dark: #000000;
+  --navbar-height: 109px;
+  --mobile-navbar-height: 80px;
 }
