@@ -1,0 +1,80 @@
+#navbar {
+  box-shadow: 0px 4px 26px 0px #c8c8c88c;
+  border-radius: 0px 0px 8px 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#navbar .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 109px;
+  gap: 15px;
+  padding-inline: 15px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar .logo {
+  height: 42px;
+}
+
+#navbar .main-navs,
+#navbar .profile-navs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+#navbar .main-navs {
+  flex-grow: 1;
+}
+
+#navbar .main-navs li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: var(--grey300);
+  transition: all 100ms ease-in-out;
+}
+
+#navbar .main-navs li:hover a,
+#navbar .main-navs li.active-link a {
+  color: var(--primary);
+}
+
+#navbar .main-navs li:hover img,
+#navbar .main-navs li.active-link img {
+  filter: invert(59%) sepia(24%) saturate(6141%) hue-rotate(113deg)
+    brightness(102%) contrast(77%);
+}
+
+#navbar .profile-navs {
+  gap: 20.5px;
+}
+
+#navbar .profile-navs li:not(.person-avatar):hover img,
+#navbar .profile-navs li:not(.person-avatar).active-link img {
+  filter: invert(59%) sepia(24%) saturate(6141%) hue-rotate(113deg)
+    brightness(102%) contrast(77%);
+}
+
+#navbar .profile-navs .person-avatar {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 2px var(--primary) solid;
+}
+
+#navbar .profile-navs .person-avatar img {
+  width: 100%;
+  height: 100%;
+}

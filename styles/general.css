@@ -1,0 +1,71 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ul,
+ol,
+li,
+figure,
+figcaption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting font size and line height */
+body {
+  font-size: 16px;
+  margin-top: 109px;
+}
+
+/* Setting default font family */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Removing list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Removing text decoration from links */
+a {
+  text-decoration: none;
+}
+
+/* Ensuring images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensuring videos are responsive */
+iframe,
+embed,
+video {
+  max-width: 100%;
+}
+
+/* Box sizing */
+* {
+  box-sizing: border-box;
+}
+
+.primaryClrFilter {
+  filter: invert(59%) sepia(24%) saturate(6141%) hue-rotate(113deg)
+    brightness(102%) contrast(77%);
+}
