@@ -22,15 +22,11 @@ hr {
 }
 
 /* Setting font size and line height */
-body {
+html {
   font-size: 16px;
-  margin-top: var(--navbar-height);
 }
-
-@media screen and (max-width: 991px) {
-  body {
-    margin-top: var(--mobile-navbar-height);
-  }
+body {
+  margin-top: var(--navbar-height);
 }
 
 /* Setting default font family */
@@ -76,9 +72,24 @@ video {
     brightness(102%) contrast(77%);
 }
 
-.container {
+.main-container {
   max-width: calc(1440px - 104px * 2 - 15px * 2);
   padding: 15px;
+  padding-top: 64px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* 
+######################################
+############# FOR MOBILE #############
+###################################### 
+*/
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 12px;
+  }
+  body {
+    margin-top: var(--mobile-navbar-height);
+  }
 }

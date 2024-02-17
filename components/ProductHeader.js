@@ -17,15 +17,20 @@ class ProductHeader extends HTMLElement {
             <img src="../assets/icons/star.svg" alt="star" />
             <img src="../assets/icons/star.svg" alt="star" />
       
-            <div>
+            <div class="rate-text-area">
               <span>4.1</span>
               <span> (500)</span>
             </div>
           </div>
       
-          <div>
+          <div class="actions-group">
+          <a>
             <img src="../assets/icons/share.svg" alt="share" />
+          </a>
+
+          <a>
             <img src="../assets/icons/heart.svg" alt="favouite" />
+          </a>
           </div>
         </div>
       </div>

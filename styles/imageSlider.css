@@ -5,6 +5,10 @@
   height: 431px;
 }
 
+.image-swiper {
+  height: 100%;
+}
+
 .image-swiper .swiper-slide {
   display: flex;
   align-items: center;
