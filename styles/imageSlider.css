@@ -1,0 +1,87 @@
+.image-swiper-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 431px;
+}
+
+.image-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-swiper .swiper-slide img {
+  width: calc(100% - 2 * 25px);
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0px 3px 40px -5px #20202012;
+  border-radius: 8px;
+}
+
+.image-swiper .swiper-pagination {
+  position: absolute;
+  z-index: 10;
+}
+
+.image-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #e6eaef;
+  opacity: 1;
+  transition: background 300ms;
+}
+
+.image-swiper .swiper-pagination-bullet-active {
+  width: 10px;
+  height: 10px;
+  background: var(--primary);
+}
+
+.image-swiper div[class*="swiper-button"] {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 3px 3px 1px #2020200d;
+}
+
+.image-swiper .swiper-button-next {
+  right: 0px;
+  z-index: 10;
+}
+
+.image-swiper .swiper-button-prev {
+  left: 0;
+  z-index: 10;
+  transform: rotate(-180deg);
+}
+
+.image-swiper div[class*="swiper-button"]::after {
+  content: " ";
+  display: block;
+  width: 13.01px;
+  height: 23.01px;
+  background: url(../assets/icons/left-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 
+######################################
+############# FOR MOBILE #############
+###################################### 
+*/
+@media screen and (max-width: 991px) {
+  .image-swiper div[class*="swiper-button"] {
+    display: none;
+  }
+
+  .image-swiper .swiper-slide img {
+    width: 100%;
+    height: 431px;
+    object-fit: cover;
+    box-shadow: 0px 3px 40px -5px #20202012;
+    border-radius: 8px;
+  }
+}
