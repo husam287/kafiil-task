@@ -3,8 +3,37 @@ class ProductHeader extends HTMLElement {
     super();
   }
 
+  getHtml() {
+    return /*html*/ `
+      <div id="productHeader">
+        <span class="subtitle">Design / Logo Design</span>
+        <h1 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit amet, </h1>
+      
+        <div class="productHeader--row">
+          <div class="rate">
+            <img src="../assets/icons/star.svg" alt="star" />
+            <img src="../assets/icons/star.svg" alt="star" />
+            <img src="../assets/icons/star.svg" alt="star" />
+            <img src="../assets/icons/star.svg" alt="star" />
+            <img src="../assets/icons/star.svg" alt="star" />
+      
+            <div>
+              <span>4.1</span>
+              <span> (500)</span>
+            </div>
+          </div>
+      
+          <div>
+            <img src="../assets/icons/share.svg" alt="share" />
+            <img src="../assets/icons/heart.svg" alt="favouite" />
+          </div>
+        </div>
+      </div>
+      `;
+  }
+
   render() {
-    this.innerHTML = /*html*/ ``;
+    this.innerHTML = this.getHtml();
   }
 
   connectedCallback() {
@@ -23,4 +52,4 @@ class ProductHeader extends HTMLElement {
   // }
 }
 
-customElements.define("product-title", ProductHeader);
+customElements.define("product-header", ProductHeader);

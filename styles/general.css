@@ -24,7 +24,13 @@ hr {
 /* Setting font size and line height */
 body {
   font-size: 16px;
-  margin-top: 109px;
+  margin-top: var(--navbar-height);
+}
+
+@media screen and (max-width: 991px) {
+  body {
+    margin-top: var(--mobile-navbar-height);
+  }
 }
 
 /* Setting default font family */
@@ -68,4 +74,11 @@ video {
 .primaryClrFilter {
   filter: invert(59%) sepia(24%) saturate(6141%) hue-rotate(113deg)
     brightness(102%) contrast(77%);
+}
+
+.container {
+  max-width: calc(1440px - 104px * 2 - 15px * 2);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
