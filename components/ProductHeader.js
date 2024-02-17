@@ -11,11 +11,7 @@ class ProductHeader extends HTMLElement {
       
         <div class="productHeader--row">
           <div class="rate">
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
+            <review-stars></review-stars>
       
             <div class="rate-text-area">
               <span>4.1</span>

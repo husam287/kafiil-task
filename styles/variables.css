@@ -6,6 +6,7 @@
   --grey500: #696f79;
   --grey400: #8692a6;
   --grey300: #c3c5c8;
+  --grey200: #E6EAEF;
   --grey50: #f6f6f6;
   --dark: #000000;
 
@@ -15,4 +16,5 @@
   --space-md: 2rem;
   --space-sm: 1.5rem;
   --space-xs: 1.375rem;
+  --space-xxs: 1rem;
 }

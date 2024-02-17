@@ -1,0 +1,100 @@
+.personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.personal-info .profile-pic {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  position: relative;
+}
+.personal-info .profile-pic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.personal-info .online-dot {
+  position: absolute;
+  bottom: 0.5rem;
+  inset-inline-end: 0;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  background: #1dbf73;
+  border: 1px solid #fff;
+}
+
+.personal-name {
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.personal-location {
+  font-weight: 400;
+  color: var(--grey400);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.personal-rate {
+  font-weight: 400;
+  color: var(--grey400);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.personal-rate img {
+  height: 0.9375rem;
+}
+
+.personal-name > img {
+  width: 1.125rem;
+  height: 1.125rem;
+  object-fit: cover;
+}
+
+.personal-btns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.personal-btns .btn {
+  min-width: unset;
+  background-color: #f6f6f6;
+  height: 2.8125rem;
+  width: 2.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.personal-btns .btn img {
+  height: 1.5rem;
+}
+
+.personal-text {
+  font-weight: 500;
+  font-size: 0.875;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.contactus-btn {
+  height: 40px;
+  width: 100%;
+}

@@ -18,6 +18,10 @@
     <script src="./components/ProductHeader.js" defer></script>
     <script src="./components/ImageSlider.js" defer></script>
     <script src="./components/Counter.js" defer></script>
+    <script src="./components/Stars.js" defer></script>
+    <script src="./components/ReviewBar.js" defer></script>
+    <script src="./components/PersonalInfoCard.js" defer></script>
+    <script src="./components/Social.js" defer></script>
   </head>
 
   <body>
@@ -46,11 +50,6 @@
           </div>
         </div>
 
-        <!-- PRODUCT SERVICE -->
-        <div class="spacing-top">
-          <span class="section-title">Service Add-Ons</span>
-        </div>
-
         <!-- BUY SERVICE -->
         <div class="spacing-top">
           <span class="section-title">Purchase Service</span>
@@ -74,32 +73,68 @@
 
         <!-- RATE SECTION -->
         <div class="spacing-top">
-          <span class="section-title">4.6 Service Rating . 46 Ratings</span>
+          <div class="section-title">
+            <img src="./assets/icons/star.svg" alt="star" />
+            <span> 4.6 Service Rating . 46 Ratings </span>
+          </div>
 
           <!-- RATE NUMBERS -->
-          <div class="card"></div>
+          <div class="card">
+            <div class="rate-number-card-content">
+              <div class="rate-row">
+                <span class="rate-row--title">Work Quality</span>
+                <img src="./assets/icons/star.svg" alt="star" />
+                <span class="rate-row--number">5.0</span>
+              </div>
 
-          <!-- REVIEWS COMMENTS-->
-          <div class="card"></div>
-        </div>
+              <div class="rate-content">
+                <review-stars></review-stars>
+                <review-bar review="4"></review-bar>
+              </div>
+            </div>
 
-        <!-- SUGGESTED SERVICES -->
-        <div class="spacing-top">
-          <span class="section-title">Suggested Services</span>
+            <div class="rate-number-card-content sm-spacing-top">
+              <div class="rate-row">
+                <span class="rate-row--title"
+                  >Communication & Collaboration</span
+                >
+                <img src="./assets/icons/star.svg" alt="star" />
+                <span class="rate-row--number">5.0</span>
+              </div>
+
+              <div class="rate-content">
+                <review-stars></review-stars>
+                <review-bar review="4"></review-bar>
+              </div>
+            </div>
+
+            <div class="rate-number-card-content sm-spacing-top">
+              <div class="rate-row">
+                <span class="rate-row--title">Adherence to Schedule</span>
+                <img src="./assets/icons/star.svg" alt="star" />
+                <span class="rate-row--number">5.0</span>
+              </div>
+
+              <div class="rate-content">
+                <review-stars></review-stars>
+                <review-bar review="4"></review-bar>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <aside>
         <div class="card">
           <span class="section-title">Seller</span>
-        </div>
 
-        <div class="card md-spacing-top">
-          <span class="section-title">Info</span>
+          <personal-info></personal-info>
         </div>
 
         <div class="card md-spacing-top">
           <span class="section-title">Share & Earn</span>
+
+          <social-row></social-row>
         </div>
       </aside>
     </main>

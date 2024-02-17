@@ -16,7 +16,7 @@ class Counter extends HTMLElement {
             <img src="../assets/icons/minus.svg" alt="minus">
           </button>
 
-          <input type="number" name="services" value="${this.priceText}">
+          <input type="number" name="services" value="1">
 
           <button class="btn btn-plus">
             <img src="../assets/icons/plus.svg" alt="plus">
