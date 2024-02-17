@@ -27,6 +27,7 @@ html {
 }
 body {
   margin-top: var(--navbar-height);
+  background: #fdfdfd;
 }
 
 /* Setting default font family */
@@ -78,6 +79,32 @@ video {
   padding-top: 64px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 3px 40px -5px #20202012;
+  border-radius: 1rem;
+  padding-block: 2rem;
+  padding-inline: 1.25rem;
+}
+
+.desc-text {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--grey800);
+}
+
+.spacing-top {
+  margin-top: var(--space-lg);
+}
+
+.section-title {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--dark);
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
 }
 
 /* 
