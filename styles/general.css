@@ -79,6 +79,18 @@ video {
   padding-top: 64px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  gap: var(--space-lg);
+  flex: 0 0 100%;
+  justify-content: center;
+}
+
+.main-container > section {
+  width: 75%;
+}
+
+.main-container > aside {
+  flex-grow: 1;
 }
 
 .card {
@@ -99,12 +111,24 @@ video {
   margin-top: var(--space-lg);
 }
 
+.md-spacing-top {
+  margin-top: var(--space-md);
+}
+
 .section-title {
   display: block;
   font-size: 1.5rem;
   color: var(--dark);
   font-weight: 600;
   margin-bottom: var(--space-sm);
+}
+
+.aside-title {
+  display: block;
+  font-size: 1rem;
+  color: var(--dark);
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
 }
 
 /* 
