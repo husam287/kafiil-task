@@ -7,23 +7,23 @@ class SocialRow extends HTMLElement {
     return /*html*/ `
           <div class="social">
               <a href="https://www.linkedin.com/in/hossamsherif28/">
-                <img src="../assets/icons/linkedin.svg" alt="linked-in">
+                <img src="assets/icons/linkedin.svg" alt="linked-in">
               </a>
 
               <a href="https://www.linkedin.com/in/hossamsherif28/">
-                <img src="../assets/icons/facebook.svg" alt="facebook">
+                <img src="assets/icons/facebook.svg" alt="facebook">
               </a>
 
               <a href="https://wa.me/+201129000383">
-                <img src="../assets/icons/whatsapp.svg" alt="whats-up">
+                <img src="assets/icons/whatsapp.svg" alt="whats-up">
               </a>
 
               <a href="https://www.linkedin.com/in/hossamsherif28/">
-                <img src="../assets/icons/twitter.svg" alt="tweeter">
+                <img src="assets/icons/twitter.svg" alt="tweeter">
               </a>
 
               <div class="copyBtn" role="button">
-                <img src="../assets/icons/copy.svg" alt="copy">
+                <img src="assets/icons/copy.svg" alt="copy">
               </div>
           </div>
           `;

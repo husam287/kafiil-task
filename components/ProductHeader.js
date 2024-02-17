@@ -21,11 +21,11 @@ class ProductHeader extends HTMLElement {
       
           <div class="actions-group">
           <a>
-            <img src="../assets/icons/share.svg" alt="share" />
+            <img src="assets/icons/share.svg" alt="share" />
           </a>
 
           <a>
-            <img src="../assets/icons/heart.svg" alt="favouite" />
+            <img src="assets/icons/heart.svg" alt="favouite" />
           </a>
           </div>
         </div>

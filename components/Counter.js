@@ -13,13 +13,13 @@ class Counter extends HTMLElement {
     return /*html*/ `
         <div id="counter-control">
           <button class="btn btn-minus">
-            <img src="../assets/icons/minus.svg" alt="minus">
+            <img src="assets/icons/minus.svg" alt="minus">
           </button>
 
           <input type="number" name="services" value="1">
 
           <button class="btn btn-plus">
-            <img src="../assets/icons/plus.svg" alt="plus">
+            <img src="assets/icons/plus.svg" alt="plus">
           </button>
         </div>
         `;

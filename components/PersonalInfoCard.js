@@ -7,17 +7,17 @@ class PersonalInfoCard extends HTMLElement {
     return /*html*/ `
         <div class="personal-info">
             <div class="profile-pic">
-                <img src="../assets/images/person2.jpeg" alt="hossam sherif" />
+                <img src="assets/images/person2.jpeg" alt="hossam sherif" />
                 <div class="online-dot"></div>
             </div>
 
             <div class="personal-name">
                 <span>Hossam Sherif</span>
-                <img src="../assets/icons/verify.svg" alt="hossam sherif" />
+                <img src="assets/icons/verify.svg" alt="hossam sherif" />
             </div>
 
             <div class="personal-location">
-                <img src="../assets/icons/pin.svg" alt="cairo" />
+                <img src="assets/icons/pin.svg" alt="cairo" />
                 <span>Cairo, Egypt</span>
             </div>
 
@@ -28,15 +28,15 @@ class PersonalInfoCard extends HTMLElement {
 
             <div class="personal-btns">
                 <button class="btn">
-                    <img src="../assets/icons/badge.svg" alt="badge">
+                    <img src="assets/icons/badge.svg" alt="badge">
                 </button>
 
                 <button class="btn">
-                    <img src="../assets/icons/login.svg" alt="login">
+                    <img src="assets/icons/login.svg" alt="login">
                 </button>
 
                 <button class="btn">
-                    <img src="../assets/icons/info.svg" alt="info">
+                    <img src="assets/icons/info.svg" alt="info">
                 </button>
             </div>
 

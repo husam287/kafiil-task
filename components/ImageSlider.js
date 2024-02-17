@@ -9,15 +9,15 @@ class ImageSlider extends HTMLElement {
         <div class="image-swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="../assets/images/product-image.webp" alt="product 1">
+                    <img src="assets/images/product-image.webp" alt="product 1">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="../assets/images/product-image.webp" alt="product 1">
+                    <img src="assets/images/product-image.webp" alt="product 1">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="../assets/images/product-image.webp" alt="product 1">
+                    <img src="assets/images/product-image.webp" alt="product 1">
                 </div>
             </div>
 

@@ -6,11 +6,11 @@ class Stars extends HTMLElement {
   getHtml() {
     return /*html*/ `
         <div class="stars">
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
-            <img src="../assets/icons/star.svg" alt="star" />
+            <img src="assets/icons/star.svg" alt="star" />
+            <img src="assets/icons/star.svg" alt="star" />
+            <img src="assets/icons/star.svg" alt="star" />
+            <img src="assets/icons/star.svg" alt="star" />
+            <img src="assets/icons/star.svg" alt="star" />
         </div>
         `;
   }
