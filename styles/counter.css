@@ -1,0 +1,42 @@
+#counter-control {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  padding-block: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#counter-control .btn {
+  box-shadow: 0px 2px 3px 0px #bab5b533;
+  background-color: #fff;
+  width: 1.75rem;
+  height: 1.75rem;
+  min-width: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+#counter-control input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 8.6875rem;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--dark);
+}
+
+#counter-control input::-webkit-outer-spin-button,
+#counter-control input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,49 @@
+.buy-service-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy-service-card > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 75%;
+}
+
+.buy-service-card .counter-container {
+  flex-grow: 1;
+}
+
+.buy-service-card .price-container {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding-block: 10px;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+  flex-grow: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+######################################
+############# FOR MOBILE #############
+###################################### 
+*/
+@media screen and (max-width: 991px) {
+  .buy-service-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .buy-service-card > div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+}

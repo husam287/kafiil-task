@@ -17,6 +17,7 @@
     <script src="./components/Navbar.js" defer></script>
     <script src="./components/ProductHeader.js" defer></script>
     <script src="./components/ImageSlider.js" defer></script>
+    <script src="./components/Counter.js" defer></script>
   </head>
 
   <body>
@@ -54,16 +55,20 @@
         <div class="spacing-top">
           <span class="section-title">Purchase Service</span>
 
-          <div class="card">
+          <div class="card buy-service-card">
             <div>
               <!-- counter -->
-              <div></div>
+              <div class="counter-container">
+                <counter-control></counter-control>
+              </div>
 
               <!-- price -->
-              <div><span>$300</span></div>
+              <div class="price-container" price="300">
+                <span>$300</span>
+              </div>
             </div>
 
-            <button>Purchase</button>
+            <button class="btn">Purchase</button>
           </div>
         </div>
 
